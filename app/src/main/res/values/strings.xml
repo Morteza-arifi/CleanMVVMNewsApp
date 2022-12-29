@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CleanMVVM NewsApp</string>
+    <string name="addToFavorite">add to favorite</string>
+    <string name="breakingNews">Breaking News</string>
+    <string name="favoriteNews">favorite News</string>
+    <string name="searchNews">search</string>
+</resources>

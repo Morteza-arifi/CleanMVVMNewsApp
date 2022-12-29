@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/topHeadLinesFragment">
+
+    <fragment
+        android:id="@+id/topHeadLinesFragment"
+        android:name="com.thirtysixone.morti.cleanmvvmnewsapp.presentation.topHeadLineNews.TopHeadLinesFragment"
+        android:label="TopHeadLinesFragment" >
+        <action
+            android:id="@+id/action_topHeadLinesFragment_to_articleFragment"
+            app:destination="@id/articleFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.thirtysixone.morti.cleanmvvmnewsapp.presentation.article.ArticleFragment"
+        android:label="ArticleFragment" >
+        <argument
+            android:name="article"
+            app:argType="com.thirtysixone.morti.cleanmvvmnewsapp.domain.model.Article" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedNewsFragment"
+        android:name="com.thirtysixone.morti.cleanmvvmnewsapp.presentation.savedNews.SavedNewsFragment"
+        android:label="SavedNewsFragment" >
+        <action
+            android:id="@+id/action_savedNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchNewsFragment"
+        android:name="com.thirtysixone.morti.cleanmvvmnewsapp.presentation.searchNews.SearchNewsFragment"
+        android:label="SearchNewsFragment" >
+        <action
+            android:id="@+id/action_searchNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+</navigation>
