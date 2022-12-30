@@ -13,7 +13,7 @@ A Simple News Android Application which has been implemented using Clean Archite
 </P>
 
 ## Architecture and patterns
-The Clean MVVM News App follows best practices and the architecture recommendations from Guide to app architecture, such as:
+The Clean MVVM News App follows best practices and the architecture recommendations from [Guide to app architecture](https://developer.android.com/topic/architecture), such as:
 
 * separation of concerns
   - UI (Presentation)
