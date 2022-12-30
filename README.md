@@ -37,7 +37,7 @@ The Clean MVVM News App follows best practices and the architecture recommendati
 *	Navigation Component
 *	RecyclerView
 *	Material Design
-*	Gluid
+*	Glide
 * ...
 
 ## The Rest Api
