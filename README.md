@@ -8,7 +8,7 @@ A Simple News Android Application which has been implemented using Clean Archite
 ## demo
 
 <p align="center">
-<img src="https://github.com/Morteza-arifi/CleanMVVMNewsApp/blob/master/newsAppGif.gif" width="280" height="480" caption="test"/>
+<img src="https://github.com/Morteza-arifi/CleanMVVMNewsApp/blob/master/newsAppGif.gif" width="280" height="480"/>
 
 </P>
 
